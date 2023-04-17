@@ -1,28 +1,22 @@
-# Name of project
+# HYF Website Redesign
 
-> A longer description
+> This website is about redesigning from original Hack Your Future website
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [HYF Website Redesign](#hyf-website-redesign)
   - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Code Examples](#code-examples)
   - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
-  - [Contact](#contact)
+  - [Team members](#team-members)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Repo Setup](#repo-setup)
-
-## General info
-
-> A short description
 
 ## Screenshots
 
@@ -30,22 +24,19 @@
 
 ## Technologies
 
-- Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
+- HTML5
+- CSS3
+- Markdown
+- Git
+
+## Method
+
+- Agile development
 
 ## Setup
 
-- `npm run start`
-
-## Code Examples
-
-```js
-// the hello world program
-console.log("Hello World");
-```
+- copy the repo
+- npm install
 
 ## Features
 
@@ -68,9 +59,12 @@ Project is: _in progress_
 
 Project by freeCodeCamp.org
 
-## Contact
+## Team members
 
-By [Name]
+- [Marina](https://github.com/marina-bashlak)
+- [Rabita](https://github.com/RabitaMaharjan)
+- [Arseniia](https://github.com/ArseniiaDamaksina)
+- [Belkis](https://github.com/blksck)
 
 ## Instructions for use
 
