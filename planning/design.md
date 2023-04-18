@@ -11,11 +11,9 @@
 
 ---
 
-> Red elements - must-have
-
-> Blue elements - should-have
-
-> Yellow elements - could-have
+> - Red elements - must-have
+> - Blue elements - should-have
+> - Yellow elements - could-have
 
 <!-- give an overview of your project's design -->
 <!-- describe the reasoning behind your group's design and wireframe -->
