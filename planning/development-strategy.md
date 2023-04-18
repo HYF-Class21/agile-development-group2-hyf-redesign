@@ -299,7 +299,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 1. Navigation Bar
 
-- This user story is developed on branch `index-Support-us`.
+- This user story is developed on branch `index-support-us`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website quickly.
