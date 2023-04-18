@@ -59,7 +59,7 @@
 
 ## 3. Program of the course and an image
 
-- This user story is developed on branch `our-program`.
+- This user story is developed on branch `home-our-program`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description of the program and by the end of the description
@@ -78,7 +78,7 @@ coloured letters in the paragraph.
 
 ## 4. success stories
 
-- This user story is developed on branch `success-stories`.
+- This user story is developed on branch `home-success-stories`.
 - This branch is merged to `master` branch after completion.
 
 > some stories from the passed out students.
@@ -94,7 +94,7 @@ By clicking the button, next story should come in the middle.
 
 ## 5. Partners
 
-- This user story is developed on branch `partners`.
+- This user story is developed on branch `home-partners`.
 - This branch is merged to `master` branch after completion.
 
 > There should be a button with heading "BECOME A PARTNER" at the top right
@@ -112,7 +112,7 @@ Design for the button and align the images.
 
 ## 6. Support
 
-- This user story is developed on branch `support`.
+- This user story is developed on branch `home-support`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need to see a clear heading and description of the organization.
@@ -132,7 +132,7 @@ Design for the button and align the images.
 
 ## 7. Footer
 
-- This user story is developed on branch `footer`.
+- This user story is developed on branch `home-footer`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website to the
@@ -159,7 +159,7 @@ Design for the button and align the images.
 
 ---
 
-## 0. Setup
+## 0. Setup for program page
 
 > Note this is the development strategy for the main page of this website.
 
@@ -177,9 +177,9 @@ Design for the button and align the images.
 
 ---
 
-## 1. Navigation Bar
+## 1. Navigation Bar for program page
 
-- This user story is developed on branch `index-program`.
+- This user story is developed on branch `program-index`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website quickly.
@@ -187,18 +187,18 @@ Design for the button and align the images.
 - [ ] There should be 7 navigation bars with the links to different parts of
       website at top right corner.
 
-### Site Navigation HTML
+### Navigation HTML
 
 - [ ] Links spread out horizontally with the even distance between them.
 
-### Site Navigation CSS
+### Navigation CSS
 
 - [ ] links are presented in grey color,with underline hover effects with color
       blue for first six and 1 with blue color background with white texts.
 
 ## 2. Introduction with extra link, APPLY NOW button and an Image
 
-- This user story is developed on branch `introduction-program`.
+- This user story is developed on branch `program-introduction`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description of the program and by the end of the description
@@ -218,7 +218,7 @@ fonts.
 
 ## 3. Conditions
 
-- This user story is developed on branch `condition-program`.
+- This user story is developed on branch `program-condition`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description about who can apply to this program and aside
@@ -236,7 +236,7 @@ at the right side should be the ordered list of the requirements.
 
 ## 4. Curriculum info
 
-- This user story is developed on branch `curriculum-info-program`.
+- This user story is developed on branch `program-curriculum-info`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need 2 buttons and horrizontally align with eachother at left side
@@ -254,7 +254,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 5. Footer
 
-- This user story is developed on branch `footer-program`.
+- This user story is developed on branch `program-footer`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website to the
@@ -275,11 +275,11 @@ align with the buttons and should be at the right side of the page.
 
 ---
 
-## Support Us
+## Support Us page
 
 ---
 
-## 0. Setup
+## 0. Setup for support us page
 
 > Note this is the development strategy for the main page of this website.
 
@@ -299,7 +299,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 1. Navigation Bar
 
-- This user story is developed on branch `index-support-us`.
+- This user story is developed on branch `support-us-index`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website quickly.
@@ -318,7 +318,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 2. Introduction
 
-- This user story is developed on branch `introduction-contact-us`.
+- This user story is developed on branch `support-us-introduction`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description about why should I become a partner and by the
@@ -338,7 +338,7 @@ curser in it.
 
 ## 3. WHY DONATE?
 
-- This user story is developed on branch `why-donate`.
+- This user story is developed on branch `support-us-why-donate`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description why we donate.
@@ -353,7 +353,7 @@ Should have blue color with bold pattern for the heading and grey paragraph
 
 ## 5. donate form
 
-- This user story is developed on branch `donate-form`.
+- This user story is developed on branch `support-us-donate-form`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need 2 choose buttons and vertically align with eachother at right
@@ -371,7 +371,7 @@ on it; writing space and a button at the end.
 
 ## 6. Footer
 
-- This user story is developed on branch `footer-program`.
+- This user story is developed on branch `support-us-footer`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website to the
