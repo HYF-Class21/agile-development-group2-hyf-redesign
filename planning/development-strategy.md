@@ -4,7 +4,7 @@
 
 ## Home Page
 
-## 0.Setup
+## 0. Setup
 
 > Note this is the development strategy for the main page of this website.
 
@@ -38,14 +38,14 @@
 
 - [ ] Title/logo at the top left of the page.
 
-## Site Navigation
+## 2. Site Navigation
 
 - This user story is developed on branch `index`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website quickly.
 
-- [ ] There should be 7 navigation bars with the links to different parts of
+- [ ] There should be 3 navigation bars with the links to different parts of
       website at top right corner.
 
 ### Site Navigation HTML
@@ -57,43 +57,28 @@
 - [ ] links are presented in grey color,with underline hover effects with color
       blue for first six and 1 with blue color background with white texts.
 
-## Program of the course
+## 3. Program of the course and an image
 
-- This user story is developed on branch `Our program`.
+- This user story is developed on branch `our-program`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need description of the program and by the end of the description
-> i need to see a link which will lead to another page.
+> and an image aside of the description. I need to see a link which will lead to
+> another page.
 
 ### It's HTML
 
-Should have a heading "OUR PROGRAM" and paragraph with description of the
-course.
+Should have a heading "OUR PROGRAM" and paragraph with description of the course
+then an image by the side of the description.
 
 ### It's CSS
 
 Should have blue color with bold pattern for the heading and grey with some blue
 coloured letters in the paragraph.
 
-## An image
+## 4. success stories
 
-- This user story is developed on branch `image`.
-- This branch is merged to `master` branch after completion.
-
-- [ ] There should be an image next to program of the course.
-
-### It's HTML
-
-- [ ] Image should be inside a section should spread out horizontally with the
-      even distance between them
-
-### It's CSS
-
-- [ ]
-
-## success stories
-
-- This user story is developed on branch `sucess-stories`.
+- This user story is developed on branch `success-stories`.
 - This branch is merged to `master` branch after completion.
 
 > some stories from the passed out students.
@@ -107,9 +92,9 @@ and in the middle the stories there should be a button.
 
 By clicking the button, next story should come in the middle.
 
-## Partners
+## 5. Partners
 
-- This user story is developed on branch `Partners`.
+- This user story is developed on branch `partners`.
 - This branch is merged to `master` branch after completion.
 
 > There should be a button with heading "BECOME A PARTNER" at the top right
@@ -125,7 +110,7 @@ should add a button and images of all the partners.
 
 Design for the button and align the images.
 
-### Support
+## 6. Support
 
 - This user story is developed on branch `support`.
 - This branch is merged to `master` branch after completion.
@@ -142,12 +127,251 @@ Design for the button and align the images.
 
 ### Support CSS
 
--[ ] Heading should be in blue color and paragraph should be in light grey
-color.
+- [ ] Heading should be in blue color and paragraph should be in light grey.
+      color.
 
-## Footer
+## 7. Footer
 
 - This user story is developed on branch `footer`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need _Nav bar_ that can help me navigate the website to the
+> different social medias.
+
+- [ ] There should be navigation bars with the links to different social medias
+      of the organization at the bottom center of the page.
+
+### Footer HTML
+
+- [ ] 4 navigation Links with image spread out horizontally with the even
+      distance between them.
+
+### Footer CSS
+
+- [ ] links are presented with social media logo should align in the bottom
+      center of the page.
+
+---
+
+---
+
+## The Program Page
+
+---
+
+## 0. Setup
+
+> Note this is the development strategy for the main page of this website.
+
+- [ ] Boilerplate HTML file
+- [ ] empty CSS file
+- [ ] CSS file is linked to HTML
+
+---
+
+- This user stories are developed on branch
+  [userpersona](https://github.com/HYF-Class21/agile-development-group2-hyf-redesign/blob/master/planning/user-personas.md).
+- This branch is merged to
+  [master](https://github.com/HYF-Class21/agile-development-group2-hyf-redesign/tree/master/planning)
+  branch after completion.
+
+---
+
+## 1. Navigation Bar
+
+- This user story is developed on branch `index-program`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need _Nav bar_ that can help me navigate the website quickly.
+
+- [ ] There should be 7 navigation bars with the links to different parts of
+      website at top right corner.
+
+### Site Navigation HTML
+
+- [ ] Links spread out horizontally with the even distance between them.
+
+### Site Navigation CSS
+
+- [ ] links are presented in grey color,with underline hover effects with color
+      blue for first six and 1 with blue color background with white texts.
+
+## 2. Introduction with extra link, APPLY NOW button and an Image
+
+- This user story is developed on branch `introduction-program`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need description of the program and by the end of the description
+> i need to see 2 underlined sentences and a button names "APPLY NOW."
+
+### It's HTML
+
+Should have a heading and a paragraph with description for whom this program
+actually is with 2 following underlined sentences and a button which will lead
+to the application form.
+
+### It's CSS
+
+Should have blue color with bold pattern for the heading and grey with some blue
+coloured letters in the paragraph button should be in blue background and white
+fonts.
+
+## 3. Conditions
+
+- This user story is developed on branch `condition-program`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need description about who can apply to this program and aside
+> there should be ordered list of the requirement to be eligible to be selected.
+
+### It's HTML
+
+Should have a heading and a paragraph with description who can apply and the
+requirements to be eligible join the course.
+
+### It's CSS
+
+Should have blue color with bold pattern for the heading and grey paragraph and
+at the right side should be the ordered list of the requirements.
+
+## 4. Curriculum info
+
+- This user story is developed on branch `curriculum-info-program`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need 2 buttons and horrizontally align with eachother at left side
+> and all the languages that are used in the program at the right side.
+
+### It's HTML
+
+Should have heading, two buttons and images of different languages.
+
+### It's CSS
+
+2 buttons should horrizontally align with eachother, should be just below the
+heading part of this section and the images of languages should be vertically
+align with the buttons and should be at the right side of the page.
+
+## 5. Footer
+
+- This user story is developed on branch `footer-program`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need _Nav bar_ that can help me navigate the website to the
+> different social medias.
+
+- [ ] There should be navigation bars with the links to different social medias
+      of the organization at the bottom center of the page.
+
+### Footer HTML
+
+- [ ] 4 navigation Links with image spread out horizontally with the even
+      distance between them.
+
+### Footer CSS
+
+- [ ] links are presented with social media logo should align in the bottom
+      center of the page.
+
+---
+
+## Support Us
+
+---
+
+## 0. Setup
+
+> Note this is the development strategy for the main page of this website.
+
+- [ ] Boilerplate HTML file
+- [ ] empty CSS file
+- [ ] CSS file is linked to HTML
+
+---
+
+- This user stories are developed on branch
+  [userpersona](https://github.com/HYF-Class21/agile-development-group2-hyf-redesign/blob/master/planning/user-personas.md).
+- This branch is merged to
+  [master](https://github.com/HYF-Class21/agile-development-group2-hyf-redesign/tree/master/planning)
+  branch after completion.
+
+---
+
+## 1. Navigation Bar
+
+- This user story is developed on branch `index-Support-us`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need _Nav bar_ that can help me navigate the website quickly.
+
+- [ ] There should be 7 navigation bars with the links to different parts of
+      website at top right corner.
+
+### Site Navigation HTML
+
+- [ ] Links spread out horizontally with the even distance between them.
+
+### Site Navigation CSS
+
+- [ ] links are presented in grey color,with underline hover effects with color
+      blue for first six and 1 with blue color background with white texts.
+
+## 2. Introduction
+
+- This user story is developed on branch `introduction-contact-us`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need description about why should I become a partner and by the
+> end of the description I need to see 1 nav link to contact the organization.
+
+### It's HTML
+
+Should have a heading and a paragraph with description which explains why should
+I become a partner and a button which will lead to contact the organization by
+outlook and one image aside.
+
+### It's CSS
+
+Should have blue color with bold pattern for the heading and grey with some blue
+coloured letters in the paragraph and the button should shade grey while taking
+curser in it.
+
+## 3. WHY DONATE?
+
+- This user story is developed on branch `why-donate`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need description why we donate.
+
+### It's HTML
+
+Should have a heading and a paragraph with description why should I donate.
+
+### It's CSS
+
+Should have blue color with bold pattern for the heading and grey paragraph
+
+## 5. donate form
+
+- This user story is developed on branch `donate-form`.
+- This branch is merged to `master` branch after completion.
+
+> As a user I need 2 choose buttons and vertically align with eachother at right
+> side and 5 another buttons following with some writing space and another
+> button which is link to confirmation.
+
+### It's HTML
+
+Should have some text and a button.
+
+### It's CSS
+
+should have 2 ordered list with some boxes which will turn blue after clicking
+on it; writing space and a button at the end.
+
+## 6. Footer
+
+- This user story is developed on branch `footer-program`.
 - This branch is merged to `master` branch after completion.
 
 > As a user I need _Nav bar_ that can help me navigate the website to the
