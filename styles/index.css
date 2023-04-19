@@ -1,1 +1,7 @@
-@import url("./something.css");
+/* @import url("./something.css"); */
+
+/* test setup */
+
+.text {
+  color: blue;
+}
