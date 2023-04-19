@@ -8,8 +8,8 @@
   - [Table of contents](#table-of-contents)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
+  - [Method](#method)
   - [Setup](#setup)
-  - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Team members](#team-members)
@@ -37,19 +37,6 @@
 
 - copy the repo
 - npm install
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
 
 ## Status
 
