@@ -11,7 +11,7 @@
   height: 85px;
   min-height: 85px;
   box-sizing: border-box;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .header-container {
@@ -26,7 +26,7 @@
   margin: auto;
   max-height: none;
   max-width: 1280px;
-  padding: 0px;
+  padding: 0;
   width: 100%;
   z-index: 0;
   position: static;
@@ -48,7 +48,7 @@
   width: auto;
   height: 100%;
   object-fit: contain;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .header-nav {
