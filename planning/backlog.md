@@ -15,7 +15,7 @@
   - [ ] _there is a `section` in the main section with several success stories of graduates, each story includes photo of the graduate, his current job position and short story. Also there are two svg arrows for navigation_
 - As a user I am able to see the partners of HYF program.
   - [ ] _there is a `section` in the main section with logos of all the main partners of HYF_
-- As a user I am able to donate to HYF program.
+- As a donor I am able to donate to HYF program.
   - [ ] _there is a `section` in the main section with short text explanation on the left and donation form on the right_
 - As a user I am able to see the clear address of HYF, email and can contact HYF by clicking
   on the links for different platforms.
@@ -47,9 +47,9 @@
 - As a user I can navigate the web page from a `navbar` as well as apply to this program.
   - [ ] _there is a `navbar` in the `header` at the top of the page with links to the different
         pages and `Apply now` button for application_
-- As a user I can see the the advantadges of being a partner of HYF.
+- As a donor I can see the the advantadges of being a partner of HYF.
   - [ ] _there is a `section` in the main section with text description and `Contact us` link on the left and illustrative image on the right_
-- As a user I am able to donate to HYF program.
+- As a donor I am able to donate to HYF program.
   - [ ] _there is a `section` in the main section with short text explanation on the left and donation form on the right_
 - As a user I am able to see the clear address of HYF, email and can contact HYF by clicking
   on the links for different platforms.
@@ -72,12 +72,12 @@
 
 - As a user I want to see the info about final project.
   - [ ] _there is a `section` in the main section with short text explanation and `Discover more` button on the left and illustrative photo on the right_
-- As a user I want to know more about mentorship program.
+- As a web developer I want to know more about mentorship program.
   - [ ] _there is a `section` after the main section including short text description and `Become a mentor` button on the left and illustrative photo on the right_
 
 ### Support us page
 
-- As a user I am able to see the kinds of partnership with HYF.
+- As a donor I am able to see the kinds of partnership with HYF.
   - [ ] _there is a `section` in the main section with different variants of partnership. Each variant has illustrative icon on the tp, title and text description_
 
 ## Could-Haves
