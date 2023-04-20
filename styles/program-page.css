@@ -64,7 +64,7 @@
   align-items: center;
   height: 100%;
   color: rgb(127, 127, 127);
-  font-size: 12px;
+  font-size: 11px;
   line-height: 160%;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -93,12 +93,12 @@
 
 .nav-button {
   display: inline-flex;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 160%;
   text-decoration: none;
   background-color: rgb(74, 80, 187);
   color: white;
-  font-weight: 600;
+  font-weight: 501;
   border: 1px solid transparent;
   border-radius: 4px;
   box-sizing: border-box;

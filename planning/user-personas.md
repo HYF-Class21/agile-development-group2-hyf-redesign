@@ -21,7 +21,7 @@
 - **Scenario**: He is searching for a way to learn coding for free, receive
   training as a junior developer, and ultimately prepare for the job market.
 
-## Sponsors
+## Donors
 
 - **Bio:** Lara is a successful IT engineer.
 - **Needs/goals:** She wants to support people who are about to start a career
