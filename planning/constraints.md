@@ -6,7 +6,10 @@ Some boundaries around our project.
 
 ### Time
 
-- we have limited time.
+- We have two weeks of limited time.
+   - 1. week: Planing, coding.
+   
+   - 2. week:  Updating, continue coding.
 
 ## Internal
 
