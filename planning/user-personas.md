@@ -6,9 +6,11 @@
 
 - **Bio**: Max is a developer, who wants to share his knowledge. He also wants
   get some coaching experience.
-- **Needs/Goals:** He wants to join an organization where he can utilize his skills.
-- **Frustrations:** He has a time for coaching only  on weekends.
-  **Scenario 1:** Max wants to sign up and get in touch with HYF to receive more information about the curriculum.
+- **Needs/Goals:** He wants to join an organization where he can utilize his
+  skills.
+- **Frustrations:** He has a time for coaching only on weekends. **Scenario 1:**
+  Max wants to sign up and get in touch with HYF to receive more information
+  about the curriculum.
 
 ## Refugees
 
