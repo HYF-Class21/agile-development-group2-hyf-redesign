@@ -40,7 +40,8 @@
 ## 2. Site Navigation
 
 - This user story is developed on branch `home-index-nav`.
-> As a user I need _Nav bar_ that can help me navigate the website quickly.
+
+  > As a user I need _Nav bar_ that can help me navigate the website quickly.
 
 - [ ] There should be 3 navigation bars with the links to different parts of
       website at top right corner.

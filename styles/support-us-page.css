@@ -108,3 +108,21 @@
   align-items: center;
   font-family: "Work Sans", sans-serif;
 }
+
+.btn {
+  display: inline-flex;
+  font-size: 11px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(60, 66, 174);
+  color: white;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
