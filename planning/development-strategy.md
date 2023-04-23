@@ -182,7 +182,7 @@ Design for the button and align the images.
 
 ---
 
-## 1. Navigation Bar for program page
+## 1. Title & Navigation Bar for program page
 
 - This user story is developed on branch `program-index`.
 
@@ -303,7 +303,7 @@ align with the buttons and should be at the right side of the page.
 
 ---
 
-## 1. Navigation Bar
+## 1. title & Navigation Bar
 
 - This user story is developed on branch `support-us-index`.
   > As a user I need _Nav bar_ that can help me navigate the website quickly.
