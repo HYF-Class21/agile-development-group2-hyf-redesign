@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hyf-home-page</title>
+    <link href="./styles/utilities.css" rel="stylesheet" />
     <link href="./styles/index.css" rel="stylesheet" />
-    <link href="../styles/utilities.css" rel="stylesheet" />
   </head>
   <body>
     <div class="page-container">
@@ -45,8 +45,31 @@
       </header>
     </div>
 
-    <main>
+    <main class="main-container">
       <!-- Our program -->
+      <section class="our-program grid">
+        <div class="program-container">
+          <div class="program-text">
+            <h2 class="title-program">Our program</h2>
+            <p class="text-program">
+              Our <b>9-month</b> program is divided into <b>12 modules</b>. The
+              last module is a <b>6-weeks intensive Final Project</b> where
+              students work on a real project with a real partner. Our training
+              takes place at <b>Epitech</b> (Brussels) every <b>Sunday</b>.
+              During the week, students are supported online in their
+              <b>self-study</b>, homework and peer learning.
+            </p>
+            <a class="btn btn-program" href="pages/program-page.html">
+              discover more
+            </a>
+          </div>
+
+          <!-- Our Program Image -->
+          <div class="our-image">
+            <img src="images/our-program.jpg" alt="our-program" />
+          </div>
+        </div>
+      </section>
     </main>
     <!--This is the footer part-->
     <section class="footer">
