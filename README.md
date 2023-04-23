@@ -35,7 +35,7 @@
 
 ## Setup
 
-- copy the repo
+- clone the repo
 - npm install
 
 ## Status
@@ -78,9 +78,6 @@ Project by freeCodeCamp.org
   doesn't mean it is! It doesn't know every word in the world. You can add new
   correct words to the [./.cspell.json](./.cspell.json) file so they won't cause
   an error.
-- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility analysis
-  on all HTML files in the given path and writes the report to
-  `/accessibility_report`
 
 ## Continuous Integration (CI)
 
