@@ -24,7 +24,7 @@
 
 ## 1. Title
 
-- This user story is developed on branch `home-index`.
+- This user story is developed on branch `home-title`.
   > **As a user I want to read a title of the page** The site needs a good
   > title/logo at the top left of the page.
 
@@ -32,10 +32,18 @@
 
 - [ ] Header with the web site's title where image of the HYF logo has been
       added.
+- [ ] use `header` for the header section
+- [ ] use 2 `div` for heder box and for logo box
+- [ ] use `a` for link to `Home page`
+- [ ] use `img` to add `logo`
 
 ### Site Title/logo CSS
 
 - [ ] Title/logo at the top left of the page.
+- [ ] use class `header` to style header, display `flex`,
+- [ ] use class `header-container` to style header-box, align to the center,
+      `flex`
+- [ ] use class `logo-container` to style logo, align to the center, `flex`
 
 ## 2. Site Navigation
 
@@ -45,6 +53,8 @@
 
 - [ ] There should be 3 navigation bars with the links to different parts of
       website at top right corner.
+- [ ] use `nav`, `a`, `span` for links
+- [ ] use `a` for ~a`Apply now` btn.
 
 ### Site Navigation HTML
 
@@ -53,7 +63,12 @@
 ### Site Navigation CSS
 
 - [ ] links are presented in grey color,with underline hover effects with color
-      blue for first six and 1 with blue color background with white texts.
+      blue for first six and 1 with blue color background with white texts. - [
+      ] use `header-nav` to style navbars, - [ ] use `nav-links` to style links,
+      transform text to uppercase, use no text-decoration, align to the center -
+      [ ] use `hover::after` for `nav-links span`, style to make a underline
+      hover effects. - [ ] use `nav-button` to style the `Apply now`. Use
+      pointer cursor.
 
 ## 3. Program of the course and an image
 
@@ -167,7 +182,7 @@ Design for the button and align the images.
 
 ---
 
-## 1. Navigation Bar for program page
+## 1. Title & Navigation Bar for program page
 
 - This user story is developed on branch `program-index`.
 
@@ -179,11 +194,18 @@ Design for the button and align the images.
 ### Navigation HTML
 
 - [ ] Links spread out horizontally with the even distance between them.
+- [ ] use `nav`, `a`, `span` for links
+- [ ] use `a` for ~a`Apply now` btn.
 
 ### Navigation CSS
 
 - [ ] links are presented in grey color,with underline hover effects with color
       blue for first six and 1 with blue color background with white texts.
+
+      - [ ] use `header-nav` to style navbars,
+      - [ ] use `nav-links` to style links, transform text to uppercase, use no text-decoration, align to the center
+      - [ ] use `hover::after` for `nav-links span`, style to make a underline hover effects.
+      - [ ] use `nav-button` to style the `Apply now`. Use pointer cursor.
 
 ## 2. Introduction with extra link, APPLY NOW button and an Image
 
@@ -233,7 +255,7 @@ Should have heading, two buttons and images of different languages.
 
 ### CSS
 
-2 buttons should horrizontally align with eachother, should be just below the
+2 buttons should horrizontally align with each other, should be just below the
 heading part of this section and the images of languages should be vertically
 align with the buttons and should be at the right side of the page.
 
@@ -281,7 +303,7 @@ align with the buttons and should be at the right side of the page.
 
 ---
 
-## 1. Navigation Bar
+## 1. title & Navigation Bar
 
 - This user story is developed on branch `support-us-index`.
   > As a user I need _Nav bar_ that can help me navigate the website quickly.
@@ -291,11 +313,18 @@ align with the buttons and should be at the right side of the page.
 ### Site Navigation HTML
 
 - [ ] Links spread out horizontally with the even distance between them.
+- [ ] use `nav`, `a`, `span` for links
+- [ ] use `a` for ~a`Apply now` btn.
 
 ### Site Navigation CSS
 
 - [ ] links are presented in grey color,with underline hover effects with color
       blue for first six and 1 with blue color background with white texts.
+
+        - [ ] use `header-nav` to style navbars,
+      - [ ] use `nav-links` to style links, transform text to uppercase, use no text-decoration, align to the center
+      - [ ] use `hover::after` for `nav-links span`, style to make a underline hover effects.
+      - [ ] use `nav-button` to style the `Apply now`. Use pointer cursor.
 
 ## 2. Introduction
 
@@ -308,6 +337,8 @@ align with the buttons and should be at the right side of the page.
 Should have a heading and a paragraph with description which explains why should
 I become a partner and a button which will lead to contact the organization by
 outlook and one image aside.
+
+- [ ] use `section`, `div`, `h2`, `p`, `a`
 
 ### CSS
 
