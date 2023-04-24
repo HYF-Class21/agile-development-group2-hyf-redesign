@@ -241,6 +241,216 @@ body {
   margin-left: -1.5px;
 }
 
+/* --Support Part-- */
+
+.support-box {
+  margin-bottom: 50px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: rgb(248, 249, 252);
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.support-gap {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.support-grid {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.support-para-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 80px;
+}
+
+.support-para-grid {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-flex: 0;
+  height: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: 450px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
+}
+
+.support-para-h3 {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.support-paragraph {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 17px;
+  font-family: "Space Mono", monospace;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.donation-grid {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.options-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.options-2 {
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.choice-click {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.no-of-times {
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.amount-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.amt-option {
+  display: flex;
+  margin: 20px 0;
+}
+
+.op-1 {
+  display: flex;
+  border: 1px solid rgb(28, 34, 148);
+  color: white;
+  padding: 15px 20px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: rgb(28, 34, 148);
+  font-family: "Work Sans", sans-serif;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.ul {
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.op-rest {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
+  padding: 15px 20px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+.write-number {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(28, 34, 148);
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(28, 34, 148);
+  background-color: transparent;
+  outline: none;
+}
+
+.donate-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
 /* ------Footer part styling--- */
 .footer-heading {
   font-size: 24px;
