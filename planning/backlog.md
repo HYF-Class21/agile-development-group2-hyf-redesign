@@ -47,9 +47,6 @@
         left and `unordered list` of conditions for participation on the right_
 - As a user am able to see the curriculum of the program and also the
   technologies I will learn.
-  - [ ] _there is a `section` in the main section with logos of all the main
-        partners of HYF_
-- As a user I am able to donate to HYF program.
   - [ ] _there is a `section` in the main section with `Discover curriculum`
         buttton on the left and `technologies' logos`_
 - As a user I am able to see the clear address of HYF, email and can contact HYF

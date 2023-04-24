@@ -13,7 +13,7 @@
   height: 100%;
 }
 
-/* Header */
+/* ------Header part styling--- */
 .header {
   display: flex;
   width: 100%;
@@ -43,7 +43,7 @@
   margin-left: 256px;
 }
 
-/* Navbar */
+/* ------Navbar part styling--- */
 .logo-container {
   display: flex;
   justify-content: center;
@@ -133,6 +133,7 @@
   box-sizing: border-box;
 }
 
+/* ------Introduction section styling--- */
 .introduction-section {
   display: flex;
   justify-content: center;
@@ -221,4 +222,224 @@
   object-fit: cover;
   border-radius: 0;
   margin-left: -1.5px;
+}
+
+/* ------Conditions section styling--- */
+.conditions-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: rgb(248, 249, 252);
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.conditions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.conditions-content {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conditions-h2 {
+  font-size: 22px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 910;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.conditions {
+  display: flex;
+}
+
+.conditions-text {
+  padding-right: 100px;
+  width: 45%;
+}
+
+.conditions-text p {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 200%;
+  font-size: 15px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  font-weight: 300;
+}
+
+.conditions ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.conditions ul li {
+  position: relative;
+  padding-left: 30px;
+  margin: 3px 0;
+}
+
+.conditions ul li svg {
+  color: rgb(74, 80, 187);
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(0.7);
+}
+
+.svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.conditions ul li::after {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  border: 2px solid rgb(74, 80, 187);
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: -4px;
+}
+
+.li-text {
+  margin: 0 0 0 2px;
+  font-size: 15px;
+}
+
+/* ------Footer part styling--- */
+.footer-heading {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.footer-para {
+  color: rgb(45, 48, 55);
+  text-align: center;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.footer-mail {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.footer-smedia {
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.sm-links {
+  color: white;
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0 10px;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.f2 {
+  align-items: center;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
 }
