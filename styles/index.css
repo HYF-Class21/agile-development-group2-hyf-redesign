@@ -25,6 +25,11 @@ body {
   min-height: 100vh;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -203,11 +208,6 @@ body {
   width: 50%;
 }
 
-.our-program .btn {
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
-
 .btn-program {
   display: inline-flex;
   font-size: 12px;
@@ -224,6 +224,8 @@ body {
   background-color: transparent;
   margin-left: -20px;
   vertical-align: baseline;
+  text-transform: uppercase;
+  color: var(--primary-color);
 }
 
 .btn-program:hover {
@@ -245,6 +247,59 @@ body {
   object-fit: cover;
   border-radius: 0;
   margin-left: -1.5px;
+}
+
+/* our partners */
+
+.partners {
+  padding: 50px 20px;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.logo-img {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 170px;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 170px;
+  margin: 0;
+  padding: 0;
+}
+
+.title-btn-partners {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.title-btn-partners h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 /* --Support Part-- */
