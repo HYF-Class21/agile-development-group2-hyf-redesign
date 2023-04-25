@@ -26,6 +26,7 @@
 - HOME
 
 ![HOME PAGE](../images/home.png)
+![HOME PAGE updated](../images/design-update-musthave-home.png)
 
 - THE PROGRAM
 
