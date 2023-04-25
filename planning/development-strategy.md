@@ -70,7 +70,22 @@
       hover effects. - [ ] use `nav-button` to style the `Apply now`. Use
       pointer cursor.
 
-## 3. Program of the course and an image
+## 3. Slogan
+
+- This user story is developed on branch `home-slogan`.
+  > As a user I need a slogan and a image.
+
+### HTML
+
+Should have a heading "HELPING NEW TALENT IN THE TECH WORLD" which should be in
+the middle of the image. then an image by the side of the description.
+
+### CSS
+
+The image should cover left till right of the page. and slogen should just in
+the middle in 2 lines.
+
+## 4. Program of the course and an image
 
 - This user story is developed on branch `home-our-program`.
   > As a user I need description of the program and by the end of the
@@ -87,21 +102,42 @@ then an image by the side of the description.
 Should have blue color with bold pattern for the heading and grey with some blue
 coloured letters in the paragraph.
 
-## 4. success stories
+## 5. Statistic
 
-- This user story is developed on branch `home-success-stories`.
-  > some stories from the passed out students.
+- This user story is developed on branch `home-statistic`.
+  > there should be the datas that shows the impact made to the tech world from
+  > the organization.
 
 ### success stories HTML
 
-Should have 4 stories, each stories contains 1 image and stories from their side
-and in the middle the stories there should be a button.
+Should have 3 datas, with title and paragraph.
+
+- [ ] use `section`, `div`, `h1`, `h2` tags for classes
 
 ### success stories CSS
 
-By clicking the button, next story should come in the middle.
+header and descriptions should be written in the blue box which has same size
+and same distance with each other.
 
-## 5. Partners
+## 6. Core Values
+
+- This user story is developed on branch `home-core-values`.
+  > some informations about the values.
+
+### Core Values HTML
+
+Should have 4 values, each stories contains 1 image and description about the
+values.
+
+- [ ] use `section`, `div`, `h3`, `p` tags for classes, and should add image for
+      all different values.
+
+### Core Values CSS
+
+4 values should be horizontally and vertically align: means there should be 2
+lines and each line should contain 2 values;
+
+## 7. Partners
 
 - This user story is developed on branch `home-partners`.
   > There should be a button with heading "BECOME A PARTNER" at the top right
@@ -117,7 +153,7 @@ should add a button and images of all the partners.
 
 Design for the button and align the images.
 
-## 6. Support
+## 8. Support
 
 - This user story is developed on branch `home-support`.
 
@@ -127,7 +163,7 @@ Design for the button and align the images.
 
 ### Support HTML
 
-- [ ] should be right below the Partners.
+- should be right below the Partners.
 - Should have a heading called "Support the developers tomorrow."
 - Should have small paragraph with description about the organiztion.
 
@@ -136,7 +172,30 @@ Design for the button and align the images.
 - [ ] Heading should be in blue color and paragraph should be in light grey.
       color.
 
-## 7. Footer
+## 9. Contact us
+
+- This user story is developed on branch `home-contact-us`.
+
+> As a user I need to see a clear heading and description of the organization.
+
+- [ ] There should be a clear heading and small description for contact.
+
+### Contact HTML
+
+- should be right below the Contact us.
+- Should have small paragraph with description on the left half part while on
+  the right half there should be the google map with location triggered.
+- Should have a form with the place to write Name, email address and message.
+
+### Contact CSS
+
+- [ ] the form should be there with coloured blue and the boxes should be there
+      to write all the details accordingly.and should have a `send` button.
+- [ ] google map should be in the right half of the page. But there should be
+      gap between there 2 parts. Vertically left part should be bit smaller than
+      right part.
+
+## 10. Footer
 
 - This user story is developed on branch `home-footer`.
 
