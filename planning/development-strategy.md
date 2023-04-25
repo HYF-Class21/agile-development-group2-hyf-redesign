@@ -172,17 +172,17 @@ Design for the button and align the images.
 - [ ] Heading should be in blue color and paragraph should be in light grey.
       color.
 
-## 8. Contact us
+## 9. Contact us
 
 - This user story is developed on branch `home-contact-us`.
 
 > As a user I need to see a clear heading and description of the organization.
 
-- [ ] There should be a clear heading and description of the organization.
+- [ ] There should be a clear heading and small description for contact.
 
 ### Contact HTML
 
-- [ ] should be right below the Contact us.
+- should be right below the Contact us.
 - Should have small paragraph with description on the left half part while on
   the right half there should be the google map with location triggered.
 - Should have a form with the place to write Name, email address and message.
