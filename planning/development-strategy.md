@@ -386,7 +386,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 5. Footer
 
-- This user story is developed on branch `program-footer`.
+- This user story is developed on branch `home-footer`.
 
 > As a user I need _links_ that can help me navigate the website to the
 > different social medias.
@@ -398,11 +398,19 @@ align with the buttons and should be at the right side of the page.
 
 - [ ] 4 social media Links with image spread out horizontally with the even
       distance between them.
+- Use `section` `div` `h3` `p` and `a` tags to introduce footer to the page.
+- `a` tag should be used for the link which will lead to the email of the
+  organization. and also whould be used for the logos of all the social media
+  with links.
 
 ### Footer CSS
 
 - [ ] links are presented with social media logo should align in the bottom
       center of the page.
+- use `footer-heading`and `footer-para` classes to style heading and paragraph
+  of the footer.
+- use `footer-mail` and `footer-smedia` classes to style email and social media
+  icons and sm-links to style links.
 
 ---
 
