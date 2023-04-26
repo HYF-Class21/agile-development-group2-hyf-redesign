@@ -97,10 +97,19 @@ the middle in 2 lines.
 Should have a heading "OUR PROGRAM" and paragraph with description of the course
 then an image by the side of the description.
 
+- [ ] add `main`, `section`, `div` with `h2` and `p`. Use `a` for btn-link, use
+      `img`.
+
 ### CSS
 
 Should have blue color with bold pattern for the heading and grey with some blue
 coloured letters in the paragraph.
+
+- [ ] use class `our-program` to style the `section`
+- [ ] use class `program-container` and style padding, margins, width
+- [ ] use class `title-program` to style the **title**
+- [ ] use class `program-tex`t to style the text at the **paragraph**
+- [ ] use class `btn-program` to style the **button-link**
 
 ## 5. Statistic
 
@@ -149,9 +158,23 @@ lines and each line should contain 2 values;
 
 should add a button and images of all the partners.
 
+- [ ] Add `section`
+- [ ] add `div` for container
+- [ ] add extra `div` with `h2` and `a` inside
+- [ ] add one more `div` for logo-container
+- [ ] use `img` inside `div` to add each logo
+
 ### Partners CSS
 
 Design for the button and align the images.
+
+- [ ] use class `partners` to style the `section`
+- [ ] use class `partners-container` and style padding, margins, width
+- [ ] use class `.title-btn-partners` style Title section
+- [ ] use class `title-program` to style the title
+- [ ] use class `.btn-program` to style the button-link
+- [ ] use style `logos-container` to style the section for logos
+- [ ] use style`logo-img` to style logos
 
 ## 8. Support
 
@@ -187,6 +210,13 @@ Design for the button and align the images.
   the right half there should be the google map with location triggered.
 - Should have a form with the place to write Name, email address and message.
 
+  - [ ] use `section` for this part
+  - [ ] use `div` as a container, put in two `div` inside: one - for
+        contact-form, second - for the map.
+  - [ ] inside the first `div` put `h1` for title and `p` for text. Then use
+        `form` with `label`, `input`, `textarea` and `button`
+  - [ ] inside the second `div` put `iframe`, indicate `title` and `src`
+
 ### Contact CSS
 
 - [ ] the form should be there with coloured blue and the boxes should be there
@@ -194,6 +224,15 @@ Design for the button and align the images.
 - [ ] google map should be in the right half of the page. But there should be
       gap between there 2 parts. Vertically left part should be bit smaller than
       right part.
+
+        - [x] use class `contact-section` to style the section
+
+  - [ ] use class `contact-container` to style the first `div`
+  - [ ] use class `contact-form-container` to style the `div` for the form
+  - [ ] use class `contact-us-form` to style the form
+  - [ ] use class `support-label` to style labels and `contact-input-text` to
+        style the text-box at the form. `support-button` to style the button
+  - [ ] use classes `maps` and `maps-frame` to style the map
 
 ## 10. Footer
 
