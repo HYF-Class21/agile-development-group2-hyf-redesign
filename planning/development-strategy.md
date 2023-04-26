@@ -77,13 +77,16 @@
 
 ### HTML
 
-Should have a heading "HELPING NEW TALENT IN THE TECH WORLD" which should be in
-the middle of the image. then an image by the side of the description.
+- Should have a heading "HELPING NEW TALENT IN THE TECH WORLD" which should be
+  in the middle of the image. then an image by the side of the description.
+- Use `section`, `div` tags to introduce slogan part, `h1`for header part.
 
 ### CSS
 
-The image should cover left till right of the page. and slogen should just in
-the middle in 2 lines.
+- The image should cover left till right of the page. and slogen should just in
+  the middle in 2 lines.
+- Use "slogan-section" class to add image to the part.
+- Use "slogan-h1 class" for the slogan header.
 
 ## 4. Program of the course and an image
 

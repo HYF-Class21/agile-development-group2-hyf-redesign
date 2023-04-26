@@ -160,7 +160,7 @@ img {
   padding: 50px 20px;
   position: relative;
   box-shadow: none;
-  background: url(/images/slogan.jpg) center center no-repeat transparent;
+  background: url(../images/slogan.jpg) center center no-repeat transparent;
   background-size: cover;
   z-index: 1;
   flex: 0 0 auto;
