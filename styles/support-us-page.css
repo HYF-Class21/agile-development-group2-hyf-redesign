@@ -1,9 +1,3 @@
-.page-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
 /* Header */
 .header {
   display: flex;
@@ -17,18 +11,14 @@
 .header-container {
   align-items: center;
   background: transparent;
-  box-shadow: none;
   display: flex;
   flex: 0 1 100%;
   flex-direction: row;
   height: 100%;
   justify-content: flex-start;
   margin: auto;
-  max-height: none;
   max-width: 1280px;
-  padding: 0;
   width: 100%;
-  z-index: 0;
   position: static;
 }
 
@@ -48,7 +38,6 @@
   width: auto;
   height: 100%;
   object-fit: contain;
-  border-radius: 0;
 }
 
 .header-nav {
@@ -95,7 +84,6 @@
   display: inline-flex;
   font-size: 11px;
   line-height: 160%;
-  text-decoration: none;
   background-color: rgb(74, 80, 187);
   color: white;
   font-weight: 501;
@@ -128,14 +116,22 @@
 }
 
 /* ----------------------Intro page style---------------------------------------------- */
+.intros-box {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .intros {
   display: flex;
   justify-content: center;
   width: 100%;
   padding: 50px 20px;
   position: relative;
-  box-shadow: none;
-  background: none;
   z-index: 1;
   flex: 1 0 auto;
   background-color: white;
@@ -153,6 +149,15 @@
   margin: 0 auto;
 }
 
+.i1-info > p {
+  margin-bottom: 20px;
+}
+
+.i1-info > [data-target="link"],
+.kAJlab > a {
+  margin-left: -20px;
+}
+
 .intros-p {
   color: rgb(45, 48, 55);
   text-align: left;
@@ -162,6 +167,10 @@
   font-family: "Space Mono", monospace;
   word-break: break-word;
   font-weight: 300;
+}
+
+.intros-p > a {
+  margin-left: -20px;
 }
 
 .intros-arrow > [data-side="right"] {
@@ -214,7 +223,6 @@
 .intro1 {
   width: 100%;
   display: flex;
-  margin: 50px 0;
 }
 
 .i1-info {
@@ -252,18 +260,19 @@
   -webkit-box-align: stretch;
 }
 
+.style {
+  min-height: 300px;
+}
+
 .intro1-image {
   -webkit-box-align: stretch;
   align-items: stretch;
-  box-shadow: none;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   height: 100%;
   -webkit-box-pack: start;
   justify-content: flex-start;
-  max-height: none;
-  max-width: none;
   width: 100%;
   z-index: auto;
   position: relative;
@@ -272,6 +281,7 @@
 }
 
 /* ------Footer part styling--- */
+
 .footer-heading {
   font-size: 24px;
   line-height: 140%;
@@ -281,17 +291,14 @@
   font-weight: 700;
   color: rgb(28, 34, 148);
   text-align: left;
-  max-width: none;
 }
 
 .footer-para {
   color: rgb(45, 48, 55);
   text-align: center;
-  max-width: none;
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0;
   word-break: break-word;
   font-weight: 300;
 }
@@ -299,18 +306,15 @@
 .footer-mail {
   color: rgb(45, 48, 55);
   text-align: left;
-  max-width: none;
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0;
   word-break: break-word;
   font-weight: 300;
 }
 
 .footer-smedia {
   align-items: stretch;
-  box-shadow: none;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -320,18 +324,15 @@
   max-height: none;
   max-width: none;
   width: 100%;
-  z-index: 0;
   position: static;
   background: none 0% 0% / auto transparent;
   flex: 0 1 100%;
   margin: 20px 0;
-  padding: 0;
 }
 
 .sm-links {
   color: white;
   text-align: left;
-  max-width: none;
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
@@ -342,22 +343,17 @@
 
 .f2 {
   align-items: center;
-  box-shadow: none;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   height: auto;
   -webkit-box-pack: start;
   justify-content: flex-start;
-  max-height: none;
-  max-width: none;
   width: 100%;
   z-index: 0;
   position: static;
   background: none 0% 0% / auto transparent;
   flex: 0 1 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .f1 {
@@ -382,4 +378,22 @@
   background: none;
   z-index: 1;
   flex: 0 0 auto;
+}
+
+/* ----- tablets---- */
+
+@media (max-width: 768px) .intro1 {
+  flex-direction: column;
+}
+
+i1-info {
+  width: 100%;
+  order: 1;
+  padding: 0 0 20px;
+}
+
+/* ---------------- phones ------------------ */
+
+@media (max-width: 498px) .intros {
+  padding: 20px;
 }
