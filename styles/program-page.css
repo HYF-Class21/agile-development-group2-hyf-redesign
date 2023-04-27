@@ -560,3 +560,40 @@
   z-index: 1;
   flex: 0 0 auto;
 }
+
+@media screen and (max-width: 850px) {
+  .image-container {
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-top: 50px;
+  }
+
+  .introduction-container {
+    flex-direction: column;
+  }
+
+  .text-container {
+    max-width: 85%;
+  }
+
+  .conditions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conditions-text {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+
+  .curriculum-content {
+    flex-direction: column;
+  }
+
+  .logos-container {
+    justify-content: center;
+  }
+}
