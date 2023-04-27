@@ -702,18 +702,8 @@ img {
   margin: 20px 0;
 }
 
-.op-1 {
-  display: flex;
-  border: 1px solid rgb(28, 34, 148);
-  color: white;
-  padding: 15px 20px;
-  cursor: pointer;
-  -webkit-box-pack: center;
-  justify-content: center;
-  background-color: rgb(28, 34, 148);
-  font-family: "Work Sans", sans-serif;
-  -webkit-box-align: center;
-  align-items: center;
+.options-box:first-child {
+  margin-bottom: 20px;
 }
 
 .ul {
@@ -738,6 +728,13 @@ img {
   justify-content: center;
   background-color: white;
   font-family: "Work Sans", sans-serif;
+}
+
+.op-rest:hover,
+.op-rest:active,
+.op-rest:focus {
+  background-color: rgb(28, 34, 148);
+  color: white;
 }
 
 .write-number {
