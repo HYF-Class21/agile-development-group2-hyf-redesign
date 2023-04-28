@@ -20,7 +20,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./images/screenshot-hyf.png)
 
 ## Technologies
 
@@ -40,7 +40,7 @@
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 

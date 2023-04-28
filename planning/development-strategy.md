@@ -77,13 +77,16 @@
 
 ### HTML
 
-Should have a heading "HELPING NEW TALENT IN THE TECH WORLD" which should be in
-the middle of the image. then an image by the side of the description.
+- Should have a heading "HELPING NEW TALENT IN THE TECH WORLD" which should be
+  in the middle of the image. then an image by the side of the description.
+- Use `section`, `div` tags to introduce slogan part, `h1`for header part.
 
 ### CSS
 
-The image should cover left till right of the page. and slogen should just in
-the middle in 2 lines.
+- The image should cover left till right of the page. and slogen should just in
+  the middle in 2 lines.
+- Use "slogan-section" class to add image to the part.
+- Use "slogan-h1 class" for the slogan header.
 
 ## 4. Program of the course and an image
 
@@ -97,27 +100,41 @@ the middle in 2 lines.
 Should have a heading "OUR PROGRAM" and paragraph with description of the course
 then an image by the side of the description.
 
+- [ ] add `main`, `section`, `div` with `h2` and `p`. Use `a` for btn-link, use
+      `img`.
+
 ### CSS
 
 Should have blue color with bold pattern for the heading and grey with some blue
 coloured letters in the paragraph.
 
-## 5. Statistic
+- [ ] use class `our-program` to style the `section`
+- [ ] use class `program-container` and style padding, margins, width
+- [ ] use class `title-program` to style the **title**
+- [ ] use class `program-tex`t to style the text at the **paragraph**
+- [ ] use class `btn-program` to style the **button-link**
+
+## 5. Statistic (Our impact)
 
 - This user story is developed on branch `home-statistic`.
   > there should be the datas that shows the impact made to the tech world from
   > the organization.
 
-### success stories HTML
+### Statistic (Our impact) HTML
 
 Should have 3 datas, with title and paragraph.
 
 - [ ] use `section`, `div`, `h1`, `h2` tags for classes
 
-### success stories CSS
+### Statistic(Our impact) CSS
 
 header and descriptions should be written in the blue box which has same size
 and same distance with each other.
+
+- [ ] use our-impact-head and oi-para classes to style cheading eading and
+      paragraph of statistic part.
+- [ ] use cards-heading and cards-para classes to style card heading and
+      paragraph respectively.
 
 ## 6. Core Values
 
@@ -149,9 +166,23 @@ lines and each line should contain 2 values;
 
 should add a button and images of all the partners.
 
+- [ ] Add `section`
+- [ ] add `div` for container
+- [ ] add extra `div` with `h2` and `a` inside
+- [ ] add one more `div` for logo-container
+- [ ] use `img` inside `div` to add each logo
+
 ### Partners CSS
 
 Design for the button and align the images.
+
+- [ ] use class `partners` to style the `section`
+- [ ] use class `partners-container` and style padding, margins, width
+- [ ] use class `.title-btn-partners` style Title section
+- [ ] use class `title-program` to style the title
+- [ ] use class `.btn-program` to style the button-link
+- [ ] use style `logos-container` to style the section for logos
+- [ ] use style`logo-img` to style logos
 
 ## 8. Support
 
@@ -166,11 +197,22 @@ Design for the button and align the images.
 - should be right below the Partners.
 - Should have a heading called "Support the developers tomorrow."
 - Should have small paragraph with description about the organiztion.
+- [ ] Use section and 4 div tags to define the support part of the page.
+- [ ] use `support-para-h3` for the header section of the support part.
+- [ ] use `p` tag to describe the paragraph.
+- [ ] use some `div`tags, label tags ul, li tags and button tag at the end to
+      define the button `donate`
 
 ### Support CSS
 
-- [ ] Heading should be in blue color and paragraph should be in light grey.
-      color.
+- Heading should be in blue color and paragraph should be in light grey. color.
+- [ ] Heading of the support part at the top left corner of the support part
+      with same margin from the previous parts.
+- [ ] use class `no-of-times` to style the option one time or monthly or select
+      your amount.
+- [ ] use class `op-1` and `op-rest` to style the options of choices.
+- [ ] use class `amt-option` to style the form of the donation.
+- [ ] button at the bottom left part 2nd half of the page.
 
 ## 9. Contact us
 
@@ -187,6 +229,13 @@ Design for the button and align the images.
   the right half there should be the google map with location triggered.
 - Should have a form with the place to write Name, email address and message.
 
+  - [ ] use `section` for this part
+  - [ ] use `div` as a container, put in two `div` inside: one - for
+        contact-form, second - for the map.
+  - [ ] inside the first `div` put `h1` for title and `p` for text. Then use
+        `form` with `label`, `input`, `textarea` and `button`
+  - [ ] inside the second `div` put `iframe`, indicate `title` and `src`
+
 ### Contact CSS
 
 - [ ] the form should be there with coloured blue and the boxes should be there
@@ -194,6 +243,15 @@ Design for the button and align the images.
 - [ ] google map should be in the right half of the page. But there should be
       gap between there 2 parts. Vertically left part should be bit smaller than
       right part.
+
+        - [x] use class `contact-section` to style the section
+
+- [ ] use class `contact-container` to style the first `div`
+- [ ] use class `contact-form-container` to style the `div` for the form
+- [ ] use class `contact-us-form` to style the form
+- [ ] use class `support-label` to style labels and `contact-input-text` to
+      style the text-box at the form. `support-button` to style the button
+- [ ] use classes `maps` and `maps-frame` to style the map
 
 ## 10. Footer
 
@@ -209,11 +267,19 @@ Design for the button and align the images.
 
 - [ ] 4 social media Links with image spread out horizontally with the even
       distance between them.
+- Use `section` `div` `h3` `p` and `a` tags to introduce footer to the page.
+- `a` tag should be used for the link which will lead to the email of the
+  organization. and also whould be used for the logos of all the social media
+  with links.
 
 ### Footer CSS
 
 - [ ] links are presented with social media logo should align in the bottom
       center of the page.
+- use `footer-heading`and `footer-para` classes to style heading and paragraph
+  of the footer.
+- use `footer-mail` and `footer-smedia` classes to style email and social media
+  icons and sm-links to style links.
 
 ---
 
@@ -320,7 +386,7 @@ align with the buttons and should be at the right side of the page.
 
 ## 5. Footer
 
-- This user story is developed on branch `program-footer`.
+- This user story is developed on branch `home-footer`.
 
 > As a user I need _links_ that can help me navigate the website to the
 > different social medias.
@@ -332,11 +398,19 @@ align with the buttons and should be at the right side of the page.
 
 - [ ] 4 social media Links with image spread out horizontally with the even
       distance between them.
+- Use `section` `div` `h3` `p` and `a` tags to introduce footer to the page.
+- `a` tag should be used for the link which will lead to the email of the
+  organization. and also whould be used for the logos of all the social media
+  with links.
 
 ### Footer CSS
 
 - [ ] links are presented with social media logo should align in the bottom
       center of the page.
+- use `footer-heading`and `footer-para` classes to style heading and paragraph
+  of the footer.
+- use `footer-mail` and `footer-smedia` classes to style email and social media
+  icons and sm-links to style links.
 
 ---
 
@@ -448,8 +522,16 @@ on it; writing space and a button at the end.
 
 - [ ] 4 social media Links with image spread out horizontally with the even
       distance between them.
+- Use `section`, `div` ,`h3`, `p` and `a` tags to introduce footer to the page.
+- `a` tag should be used for the link which will lead to the email of the
+  organization. and also whould be used for the logos of all the social media
+  with links.
 
 ### Footer CSS
 
-- [ ] links are presented with social media logo should align in the bottom
-      center of the page.
+- [ ] 4 social media Links with image spread out horizontally with the even
+      distance between them.
+- Use `section` `div` `h3` `p` and `a` tags to introduce footer to the page.
+- `a` tag should be used for the link which will lead to the email of the
+  organization. and also whould be used for the logos of all the social media
+  with links.
