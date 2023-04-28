@@ -271,34 +271,35 @@
   flex: 0 1 100%;
 }
 
-/*-------why donate------*/
+/* -------why donate------ */
 
- .Why-donate{
+/* .Why-donate {
+} */
 
- }
- 
- .Why-donate-in{
+.Why-donate-in {
   padding: 50px 20px;
   display: flex;
   margin-bottom: 50px;
-  display: flex;
+
+  /* display: flex; */
   -moz-box-pack: center;
   justify-content: center;
   width: 100%;
-  padding: 50px 20px;
+
+  /* padding: 50px 20px; */
   position: relative;
   box-shadow: none;
   background: rgb(248, 249, 252);
   z-index: 1;
   flex: 0 0 auto;
- }
+}
 
- .Why-donate-text{
+.Why-donate-text {
   width: 50%;
-padding-right: 80px;
- }
+  padding-right: 80px;
+}
 
- .Why-donate-text h2{
+.Why-donate-text h2 {
   font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
@@ -308,26 +309,28 @@ padding-right: 80px;
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
- }
+}
 
- .Why-donate-text p{
+.Why-donate-text p {
   color: rgb(45, 48, 55);
   text-align: left;
   max-width: none;
   line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
-  margin: 0px;
-margin-bottom: 25px;
+
+  /* margin: 0px; */
+  margin: 0;
+  margin-bottom: 25px;
   word-break: break-word;
   font-weight: 300;
- }
+}
 
- .Why-donate-form{
+.Why-donate-form {
   width: 50%;
- } 
+}
 
- .Why-donate-form-date{
+.Why-donate-form-date {
   display: flex;
   color: rgb(28, 34, 148);
   text-align: left;
@@ -335,136 +338,158 @@ margin-bottom: 25px;
   line-height: 160%;
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
-  margin: 0px;
+
+  /* margin: 0px; */
+  margin: 0;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
- }
+}
 
- .Why-donate-form-amount{
+.Why-donate-form-amount {
   display: flex;
   margin-top: 25px;
- }
+}
 
- .Why-donate-form-amount-item{
+.Why-donate-form-amount-item {
   display: flex;
-border: 1px solid rgb(28, 34, 148);
-color: rgb(28, 34, 148);
-padding: 15px 20px;
-cursor: pointer;
--moz-box-pack: center;
-justify-content: center;
-background-color: white;
-font-family: "Work Sans", sans-serif;
- }
+  border: 1px solid rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
+  padding: 15px 20px;
+  cursor: pointer;
+  -moz-box-pack: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+}
 
- .Why-donate-form-amount-item:hover{
+.Why-donate-form-amount-item:hover {
   background-color: rgb(28, 34, 148);
   color: white;
- }
+}
 
- .Why-donate-form-amount-item.active{
+.Why-donate-form-amount-item.active {
   background-color: rgb(28, 34, 148);
   color: white;
- }
+}
 
- .Why-donate-form-header{
+.Why-donate-form-header {
   margin-top: 25px;
   color: rgb(28, 34, 148);
-text-align: left;
-max-width: none;
-line-height: 160%;
-font-size: 16px;
-font-family: "Work Sans", sans-serif;
-white-space: pre-wrap;
-word-break: break-word;
-font-weight: 300;
- }
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
 
- .Why-donate-form-item{
+.Why-donate-form-item {
   color: rgb(28, 34, 148);
   text-align: left;
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
- 
- }
+}
 
- .Why-donate-frequency{
-cursor: pointer;
-margin-right: 10px;
-cursor: pointer;
-display: flex;
--moz-box-align: center;
-align-items: center;
-margin-right: 20px;
- }
+.Why-donate-frequency {
+  cursor: pointer;
 
- .Why-donate-form-item input{
-  width: 100%;
+  /* margin-right: 10px; */
+
+  /* cursor: pointer; */
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
   margin-right: 20px;
-border-color: currentcolor currentcolor rgb(28, 34, 148);
-border-style: none none solid;
-border-width: medium medium 1px;
-border-image: none 100% / 1 / 0 stretch;
-margin: 20px 0px;
-font-size: 18px;
-padding: 5px;
-background-color: transparent;
-outline: none;
-text-align: left;
-max-width: none;
-font-size: 16px;
-font-family: "Work Sans", sans-serif;
-white-space: pre-wrap;
-font-weight: 300;
-line-height: 1;
-box-sizing: border-box;
-font-size: 100%;
-font-style: normal;
-text-decoration: none;
-cursor: pointer;
-display: flex;
--moz-box-align: center;
-align-items: center;
+}
 
- }
+.Why-donate-form-item input {
+  width: 50%;
 
+  /* margin-right: 20px; */
 
- .Why-donate-form-item textarea{
-  width: 100%;
-border-color: currentcolor currentcolor rgb(28, 34, 148);
-border-style: none none solid;
-border-width: medium medium 1px;
-border-image: none 100% / 1 / 0 stretch;
-margin: 10px 0px;
-font-size: 18px;
-padding: 5px;
-box-sizing: border-box;
-color: rgb(28, 34, 148);
-background-color: transparent;
-outline: none;
- }
+  /* border-color: currentcolor currentcolor rgb(28, 34, 148); */
+  border-color: rgb(28, 34, 148);
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  border-image: none 100% / 1px / 0 stretch;
 
- .Why-donate-form-button{
+  /* margin: 20px 0px; */
+  margin: 20px 0;
+
+  /* font-size: 18px; */
+  padding: 5px;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  max-width: none;
+
+  /* font-size: 16px; */
+  font-family: "Work Sans", sans-serif;
+  white-space: pre-wrap;
+  font-weight: 300;
+  line-height: 1;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.Why-donate-form-item textarea {
+  width: 50%;
+
+  /* border-color: currentcolor currentcolor rgb(28, 34, 148); */
+  border-color: rgb(28, 34, 148);
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  border-image: none 100% / 1 / 0 stretch;
+  
+  /* margin: 10px 0px; */
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(28, 34, 148);
+  background-color: transparent;
+  outline: none;
+}
+
+.Why-donate-form-button {
   display: inline-flex;
-font-size: 12px;
-line-height: 160%;
-text-decoration: none;
-background-color: rgb(74, 80, 187);
-color: white;
-font-weight: 600;
-border: 1px solid transparent;
-border-radius: 4px;
-box-sizing: border-box;
-padding: 10px 20px;
-cursor: pointer;
-text-transform: uppercase;
--moz-box-align: center;
-align-items: center;
-font-family: "Work Sans", sans-serif;
- }
- 
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -moz-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+label {
+  font-size: 18px;
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+}
 
 /* ------Footer part styling--- */
 .footer-heading {
