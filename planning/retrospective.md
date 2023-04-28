@@ -19,7 +19,7 @@
 ## Lessons Learned
 
 - how to prioritize and work in a team, task planning
-- how and what for write an adapting plan
+- how and what for write at the adapting plan
 - how to avoid and resolve any merging conflicts
 
 ---
@@ -33,7 +33,8 @@
 
 ### What parts of your plan did not work out?
 
-- _tasks are stil in progress_
+- _some parts needed JS, so it took an extra time to figure out how to complet
+  them using only html&css_
 
 ### Did you need to add things that weren't in your strategy?
 
