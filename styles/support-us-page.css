@@ -281,7 +281,7 @@
 /* --- donte---- */
 
 .donate-box {
-  margin-bottom: 50px
+  margin-bottom: 50px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
