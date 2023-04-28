@@ -544,7 +544,7 @@ img {
 }
 
 .persons {
-  position: absolute;
+  position: relative;
   width: 400%;
   display: flex;
   transform: translateX(-25%);
@@ -573,34 +573,6 @@ img {
   filter: grayscale(100%);
 }
 
-/*
-.person-1 {
-  width: 100%;
-  max-width: 100%;
-  min-height: 500px;
-  box-sizing: border-box;
-  opacity: 1;
-  transition: all 0.3s ease 0s;
-  transform: none;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 53px;
-  padding: 50px;
-}
-
-.person-2 {
-  width: 100%;
-  max-width: 100%;
-  min-height: 500px;
-  box-sizing: border-box;
-  opacity: 0.6;
-  transition: all 0.3s ease 0s;
-  transform: scale(0.8);
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 53px;
-  padding: 50px;
-}
-*/
-
 .success-person-title {
   font-size: 18px;
   line-height: 140%;
@@ -621,6 +593,72 @@ img {
   line-height: 160%;
   font-family: "Space Mono", monospace;
   white-space: pre-wrap;
+  text-align: center;
+}
+
+.person-out-of-focus-1 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-2 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  transform: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-3 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-4 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.shift-anchor {
+  display: none;
+}
+
+/* Shift all divs to the right when the #shift-right element is the target */
+#shift-right:target ~ .persons {
+  transform: translateX(-50%);
+}
+
+#shift-left:target ~ .persons {
+  transform: translateX(0);
 }
 
 /* our partners */
