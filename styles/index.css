@@ -512,6 +512,213 @@ img {
   font-weight: 300;
 }
 
+/* success stiries */
+
+.success-section {
+  overflow: hidden;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.success-box {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.success-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.success-title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: left;
+  max-width: none;
+}
+
+.buttons-success-persons {
+  width: 50%;
+  min-height: 500px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.left-success {
+  position: absolute;
+  left: -50px;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.right-success {
+  color: var(--primary-color);
+  position: absolute;
+  left: auto;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.persons {
+  position: relative;
+  width: 400%;
+  display: flex;
+  transform: translateX(-25%);
+  transition: transform 0.3s ease 0s;
+}
+
+.success-person {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  transform: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.success-photo-person {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: auto auto 20px;
+  background-position: center center;
+  filter: grayscale(100%);
+}
+
+.success-person-title {
+  font-size: 18px;
+  line-height: 140%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.success-occupation {
+  max-width: none;
+  line-height: 160%;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 0 20px;
+  color: var(--secondary-color);
+}
+
+.success-story {
+  line-height: 160%;
+  font-family: "Space Mono", monospace;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.person-out-of-focus-1 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-2 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  transform: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-3 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.person-out-of-focus-4 {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  transform: scale(0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+}
+
+.shift-anchor {
+  display: none;
+}
+
+/* Shift all divs to the right when the #shift-right element is the target */
+#shift-right:target ~ .persons {
+  transform: translateX(-50%);
+}
+
+#shift-left:target ~ .persons {
+  transform: translateX(0);
+}
+
 /* our partners */
 
 .partners {
